@@ -43,7 +43,7 @@ class SelectImage(Screen):
 		self.setIndex = 0
 		self.expanded = []
 		self.model = HardwareInfo().get_machine_name()
-		self.selectedImage = ["OpenPLi", {"url": "https://downloads.openpli.org/json/%s" % self.model, "model": self.model}]
+		self.selectedImage = ["OpenPLi", {"url": "https://d/json/%s" % self.model, "model": self.model}]
 		self.models = [self.model]
 		self.setTitle(_("Select image"))
 		self["key_red"] = StaticText(_("Cancel"))
